@@ -1,0 +1,51 @@
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.digit {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: gold;
+  margin: 5px;
+  outline: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.25rem;
+  font-weight: bolder;
+}
+
+#play {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#play:hover {
+  opacity: 0.9;
+  border-color: black;
+}
+
+.error {
+  border-color: red;
+}
+
+.highlight {
+  border: 1px solid lightcoral;
+  padding: 2rem;
+  margin: 2rem 0;
+  display: inline-block;
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.1);
+}
